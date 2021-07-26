@@ -12,5 +12,5 @@ output = model.predict(X_test)
 
 score = accuracy_score(y_test, output)
 
-with mlflow.start_run():
-    mlflow.log_metric("score", score)
+#with mlflow.start_run():
+#    mlflow.log_metric("score", score)
