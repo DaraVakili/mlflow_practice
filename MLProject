@@ -1,0 +1,7 @@
+---
+name: mlflowing
+
+entry_points: 
+    
+    main:
+        command: "python3 model.py" 
