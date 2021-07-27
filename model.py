@@ -37,7 +37,7 @@ elif argument == 'kNeighborsRegressor':
 
 
 with mlflow.start_run():
-    run_time_name = 'mlflow_model_' + str(datetime.datetime())
+    run_time_name = 'mlflow_model_' + str(datetime.datetime.now())
     X,y = load_boston(return_X_y=True)
     X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2)
     model.fit(X_train,y_train)
