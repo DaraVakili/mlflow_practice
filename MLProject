@@ -4,4 +4,8 @@ name: mlflowing
 entry_points: 
     
     main:
-        command: "python3 model.py --model linearRegression" 
+        command: "python3 model.py --model linearRegression"
+        command: "python3 model.py --model decisionTree"
+        command: "python3 model.py --model randomForestRegressor"
+        command: "python3 model.py --model sGDRegressor"
+        command: "python3 model.py --model kNeighborsRegressor"
