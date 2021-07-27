@@ -4,4 +4,4 @@ name: mlflowing
 entry_points: 
     
     main:
-        command: "python3 model.py" 
+        command: "python3 model.py --model linearRegression" 
